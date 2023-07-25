@@ -6,7 +6,7 @@ This begam as a mock up for the design of a fake Digital Marketing Company Horis
 
 ## Installation
 
-GitHub Pages link: https://prosentint.github.io/urban-octo-telegram-challenge-one/
+GitHub Pages link: https://prosentint.github.io/horiseon-webpage-accessibilty-challenge/
 
 ## Usage
 
