@@ -1,4 +1,4 @@
-# Code Refactor Starter Code
+# Horiseon Webpage Accessibilty Challenge
 
 ## Description
 
