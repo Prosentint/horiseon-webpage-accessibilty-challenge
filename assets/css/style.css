@@ -1,13 +1,16 @@
+/*standardizes webpage */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*Sets background color*/
 body {
     background-color: #d9dcd6;
 }
 
+/*Sets header color and padding and font color/family*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/*Sizes heading font*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*Changes the color of only the text within the .seo div which is the seo in horiseon in this case*/
 .header h1 .seo {
     color: #d9dcd6;
 }
 /*Changed div to nav to affect semantic nav bar*/
+/*This styles the fonts in the nav bar*/
 .header nav{
     padding-top: 15px;
     margin-right: 20px;
@@ -31,25 +37,29 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-/*Changed div to nav to affect semantic nav bar*/
+/*Removes bullet points from list*/
 .header nav ul{
     list-style-type: none;
 }
-/*Changed div to nav to affect semantic nav bar*/
+
+/*Pushes each nac item right*/
 .header nav ul li{
     display: inline-block;
     margin-left: 25px;
 }
 
+/*Changes the color of links and removes default stylings*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*Changes the size of paragraph tags*/
 p {
     font-size: 16px;
 }
 
+/*sizes the main image*/
 .hero img {
     height: 800px;
     width: 100%;
@@ -57,22 +67,26 @@ p {
     object-fit: cover;
 }
 
+/*Styling for section to be flowing left to right*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*Styling for section to be flowing right to left*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*Sizes main section of page*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*Styles the container of each individual panel in article section*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -84,55 +98,27 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/*Styles each individual panel in article section*/
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/*Styles each individual panel heading in article section*/
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/*Styles each individual panel image in article section*/
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+/*Styles each individual panel in main section*/
+.mediaBox {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -141,51 +127,18 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+/*Styles each individual panel image in article section*/
+.mediaBox img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+/*Styles each individual panel heading in article section*/
+.mediaBox h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/*Styles the footing of webpage*/
 .footer {
     padding: 30px;
     clear: both;
@@ -193,6 +146,7 @@ p {
     text-align: center;
 }
 
+/*Styles the footing header of webpage*/
 .footer h2 {
     font-size: 20px;
 }
